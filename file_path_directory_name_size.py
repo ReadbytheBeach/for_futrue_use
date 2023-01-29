@@ -40,3 +40,5 @@ for filename in os.listdir(r'D:\03_program\python\for_future_use'):
     totalsize = totalsize + os.path.getsize(os.path.join('D:\\03_program\\python\\for_future_use', filename))
 print('total folder size= %s Byte' %(totalsize))
 
+
+print('currently prgram size:  ' + str(os.path.getsize(r'D:\03_program\python\for_future_use\file_path_directory_name_size.py')) + ' Byte')
