@@ -40,5 +40,10 @@ for filename in os.listdir(r'D:\03_program\python\for_future_use'):
     totalsize = totalsize + os.path.getsize(os.path.join('D:\\03_program\\python\\for_future_use', filename))
 print('total folder size= %s Byte' %(totalsize))
 
-
+# 当下小程序大小
 print('currently prgram size:  ' + str(os.path.getsize(r'D:\03_program\python\for_future_use\file_path_directory_name_size.py')) + ' Byte')
+
+
+# 查找闪存是否连在计算机上
+dDrive = Path('H:\\')  # windows中，盘符不区分大小写，用倒斜杠'\'代表目录
+print(dDrive.exists())
