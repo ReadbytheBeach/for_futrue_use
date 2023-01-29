@@ -2,7 +2,7 @@ from pathlib import Path
 import sys, os
 
 # 显示当前绝对路径
-print(Path.cwd())
+print(Path.cwd()) 
 
 # 将目录和文件区分开来
 p = 'D:\\03_program\\python\\for_future_use\\sandwich_vending_machine_program.py'
@@ -22,6 +22,10 @@ print(p.parents[0])
 print(p.parents[1])
 print(p.parents[2])
 print(p.parents[3])
+
+# 显示当前用户根目录
+print(Path.home())
+
 
 # 连接路径和文件名
 p_dir = Path('D:\\03_program\\python\\for_future_use')  # 使用Path方法
