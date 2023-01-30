@@ -28,7 +28,6 @@ search_file = search_dir.glob('*.txt')
 但使用search_file == [] 则没有问题。
 '''
 
-
 # 确定想查找的内容 -- 'ADAS companies research and invest'
 # 定义要匹配的正则表达式: 开头第一位是数字， 以字符串vest结尾，不区分大小写
 searchRegex = re.compile(r'(^[0-9]{1,})(.*)(invest$)', re.I)
@@ -54,3 +53,5 @@ else:
                 n += 1
         if n==0: # 该文档匹配一次就加1
             print('No any content match in %s'%(searchPathObj))
+
+        content.close()
