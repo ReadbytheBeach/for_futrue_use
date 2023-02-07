@@ -33,10 +33,10 @@ source_path = Path(r'D:\03_program\python\source_folder')
 print(source_path)
 
 
-search_reg = re.compile(r'^(spam)(\d{1,3})(.txt)')  # 该表达式可以
+# search_reg = re.compile(r'^(spam)(\d{1,3})(.txt)')  # 该表达式可以
 # search_reg = re.compile(r'^(spam)(\d){1,3}(.txt)')  # 该表达式可以
 # search_reg = re.compile(r'spam+\d{1,3}+.txt')  # 该表达式可以
-# search_reg = re.compile(r'spam+(\d{1,3})+.txt')  # 该表达式不建议使用， 会乱
+search_reg = re.compile(r'spam+(\d{1,3})+.txt')  # 该表达式可以
 
 n = 0 
 
