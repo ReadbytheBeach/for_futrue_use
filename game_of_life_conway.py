@@ -1,4 +1,6 @@
 # Conway's Game of life
+# this game worth to run all the time
+
 import random, time, copy
 WIDTH = 60
 HEIGHT = 20
