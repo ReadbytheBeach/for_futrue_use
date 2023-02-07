@@ -32,7 +32,7 @@ from pathlib import Path
 source_path = Path(r'D:\03_program\python\source_folder')
 print(source_path)
 
-
+# 以下四种正则表达式都可以
 # search_reg = re.compile(r'^(spam)(\d{1,3})(.txt)')  # 该表达式可以
 # search_reg = re.compile(r'^(spam)(\d){1,3}(.txt)')  # 该表达式可以
 # search_reg = re.compile(r'spam+\d{1,3}+.txt')  # 该表达式可以
